@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Loan Management System"
+description = "A frontend-only loan management app with customer registration, applications, request tracking, and a separate internal admin panel using demo data stored in the browser."
+version = "1.0.0"
+id = "artifacts/loan-management"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23350
+
+[services.development]
+run = "pnpm --filter @workspace/loan-management run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/loan-management", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/loan-management/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23350"
+BASE_PATH = "/"
