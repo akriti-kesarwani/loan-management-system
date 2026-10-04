@@ -501,6 +501,12 @@ footer .brand {font-size:15px}footer .brand-mark {width:26px;height:26px}footer>
 .field textarea {resize:vertical;line-height:1.5}
 .field input:focus,.field select:focus,.field textarea:focus {border-color:#6ba0ce;box-shadow:0 0 0 3px #dceefa}
 .field input::placeholder,.field textarea::placeholder {color:#a3afbb}
+.upload-field {grid-column:1 / -1}
+.upload-field input[type='file'] {height:auto;min-height:42px;padding:7px;background:#fbfcfd;font-size:11px}
+.upload-field input[type='file']::file-selector-button {margin-right:10px;padding:7px 10px;border:1px solid #dce5ec;border-radius:5px;background:#eef4f8;color:#345a77;font:600 10px 'DM Sans',sans-serif;cursor:pointer}
+.upload-field>small {font-size:10px;color:#8795a2;line-height:1.45}
+.upload-field>span b {margin-left:5px;color:#9d6b20;font-size:9px;font-weight:700}
+.document-link {color:#155ba4;text-decoration:underline;text-underline-offset:2px;overflow-wrap:anywhere}
 .field-grid {display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .auth-card .field-grid {gap:13px}
 .auth-card .field-grid .field>span {font-size:10px}

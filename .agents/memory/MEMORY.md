@@ -1,0 +1,1 @@
+- [Flexi Cred product requirements](flexi-cred.md) — Brand as Flexi Cred and keep document uploads conditional and browser-local.
