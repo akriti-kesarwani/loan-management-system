@@ -1,0 +1,16 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "JAroQIsRJ0xyqbfLJ_wcJ"
+uri = "file://guides/download-code-from-replit.html"
+type = "html"
+title = "How to download your project code from Replit"
+description = "A quick guide to downloading the full Replit workspace ZIP, finding the Flexi Cred app, and using GitHub for ongoing backups."
+logical_id = "1a56bf69-87ce-44e7-8135-2972bc25cd9b"
+content_hash = "sha256:649a7a7dda9225787d371adc819110483372976329f8cabe00b26bdb7ce80d1e"
+size = 4665
+mtime_ms = 1791113452000
+storage_uri = "gcs://replit-rams-assets-sisko/rams/assets/repl:1bc61982-2bfc-40e4-a9af-1a26be1020e2/1a56bf69-87ce-44e7-8135-2972bc25cd9b/db679236-66b9-4720-a8f6-f393b0a05b05"
+storage_version_token = "1791113470535335"
+content_type = "text/html"
