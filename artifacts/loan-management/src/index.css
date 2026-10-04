@@ -645,6 +645,25 @@ td b {color:#344b60}.strong {font-weight:700;color:#344b60}
 .review-customer {display:flex;align-items:center;gap:10px;padding:12px 0 2px}.review-customer>div {flex:1}.review-customer b,.review-customer small {display:block}.review-customer b {font-size:11px}.review-customer small {font-size:9px;color:#8b98a3;margin-top:4px}
 .review-actions {border-top:1px solid #e9edf1;padding-top:16px;margin-top:17px;display:flex;justify-content:space-between;align-items:center;gap:12px}
 .review-actions>span {font-size:10px;font-weight:700;color:#52677b}.review-actions>div {display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.request-detail-modal {width:min(100%,820px)}
+.request-detail-modal .modal-head h2 {font-size:15px;letter-spacing:.35px}
+.request-detail-sections {display:grid;gap:12px;margin-top:6px}
+.request-detail-section {padding:15px 16px;background:#fff;border:1px solid #e8edf1;border-radius:9px}
+.request-detail-section h3 {font:700 12px 'Manrope',sans-serif;color:#344c61;margin:0 0 12px}
+.request-detail-fields {grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px 22px;padding:0;background:transparent}
+.request-detail-fields .info-item small {font-size:9px;color:#8996a2;margin-bottom:5px}
+.request-detail-fields .info-item b {font-size:11px;color:#3c5267}
+.request-comment-card {padding:12px 14px;background:#f7f9fb;border:1px solid #edf1f4;border-radius:8px}
+.request-comment-card>span,.request-comment-label {display:block;font-size:10px;font-weight:700;color:#76889a}
+.request-comment-card p {font-size:11px;color:#455b6f;margin:6px 0 0;line-height:1.6}
+.request-admin-comments {margin-top:12px}
+.request-admin-comments .admin-comment {margin-top:8px}
+.request-comment-input {margin:12px 0 8px!important}
+.review-actions>div:first-child {display:grid;gap:3px;justify-content:start}
+.review-actions>div:first-child b {font-size:11px;color:#52677b}
+.review-actions>div:first-child small {font-size:9px;color:#8a98a5}
+.admin-action-buttons {display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end;width:100%}
+.admin-action-buttons .btn:disabled {opacity:.42;cursor:not-allowed;box-shadow:none;filter:grayscale(.25)}
 .terminal-note {font-size:10px;color:#82909c;padding:9px}
 .success-message {display:block;color:#397f62;font-size:10px;margin:5px 0}
 .toast-message {display:flex;align-items:center;gap:9px;background:#eaf5ef;border:1px solid #cfe6d8;color:#31785a;border-radius:8px;padding:10px 12px;margin:-6px 0 16px;font-size:11px;font-weight:600}.toast-message .icon-button {margin-left:auto;width:24px;height:24px;color:#56816d}
